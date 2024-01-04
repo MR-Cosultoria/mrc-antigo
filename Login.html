@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MR Consultoria - Central de servi&#231;os</title>
+    <link href="https://mrconsultoria.movidesk.com/Content/styles?v=wqZpG0h1OeYHbN6tLdIwrdR2vhNWPok-mTtRYOdWNOQ1" rel="stylesheet"/>
+
+
+<style type="text/css">
+        
+        #login-container {
+            background-color: #FFFFFF;
+        }
+        
+
+        
+        #login-container {
+            color: #A9A9A9 !important;
+        }
+        
+
+        
+        .login-button {
+            background-color: #41B5BC;
+        }
+        
+
+        
+        .login-button {
+            border-color: #1F6468;
+        }
+        
+
+        
+        .login-button {
+            color: #FFFFFF;
+        }
+        .login-button:hover {
+            color: #FFFFFF;
+        }
+        
+
+        
+        #login-container a {
+            color: #2899DE;
+        }
+        .login-link-idioma {
+            color: #2899DE !important;
+        }
+        
+</style>
+
+    
+
+
+<link rel="shortcut icon" type="image/png" href="https://s3.amazonaws.com/movidesk-files/5E91F1891A05E312AC2B90B2C367FD67" />
+
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5JWZXT5');
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBLJTVMDMG"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-JBLJTVMDMG', {
+                cookie_flags: 'SameSite=None;Secure',
+            });
+        </script>
+
+            <!-- InÃ­cio do aviso de consentimento de cookies OneTrust para zenvia.movidesk.com -->
+            <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="775f617d-e58e-4142-8315-2cf3a5d8b655"></script>
+            <script type="text/javascript">
+                function OptanonWrapper() { }
+            </script>
+            <!-- Final do aviso de consentimento de cookies OneTrust para zenvia.movidesk.com -->
+</head>
+<body id="login-body">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JWZXT5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    <script type="text/javascript">
+        window.movideskConfig = {
+        };
+    </script>
+    <div id="login-container" class="container-fluid h-100 min-h-600">
+        <section class="row h-100 min-h-620">
+            
+<div id="login" class="login container-fluid p-0 h-100">
+    <div class="col-xs-12 col-md-4 h-100 min-h-620">
+        <div class="row">
+            <input type="hidden" id="QrCode" name="QrCode" />
+            <input type="hidden" id="Key" name="Key" />
+            <input type="hidden" id="Secret" name="Secret" />
+            <input type="hidden" id="CreateAccountToken" name="CreateAccountToken" />
+
+            <!-- Seletor de idiomas -->
+            <div class="btn-group dropdown lang-select-login text-right">
+                <button type="button" class="btn btn-link dropdown-toggle default-link-login login-link-idioma" data-toggle="dropdown">
+                    Portugu&#234;s (Brasil)
+                    <span class="caret"></span>
+                    <span class="sr-only">Alternar dropdown</span>
+                </button>
+                <ul class="dropdown-menu pull-right" role="menu">
+                        <li class="language"><a href="https://mrconsultoria.movidesk.com/Account/Language/en-US">English (United States)</a></li>
+                        <li class="language"><a href="https://mrconsultoria.movidesk.com/Account/Language/es">Espa&#241;ol</a></li>
+                        <li class="language"><a href="https://mrconsultoria.movidesk.com/Account/Language/pt-BR">Portugu&#234;s (Brasil)</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+                <div class="row">
+                    <div id="login-logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 text-center">
+                            <img src="https://s3.amazonaws.com/movidesk-files/ADB7EC001A0A47D715CDB1DE42C75B95" alt="MR Consultoria" class="img-logo-login img-responsive" />
+                    </div>
+                </div>
+                <div class="login-box pt-10 pb-10 row">
+                    <div class="logon-wait" style="display: none">
+                        <i class="fa fa-refresh fa-spin"></i><span class="loading-message">
+                            Carregando
+                        </span>
+                    </div>
+                    <div class="form-container form col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
+<form action="Login.html" autocomplete="off" id="form-login" method="post">                            <div class="row">
+                                <div class="">
+                                    <input name="__RequestVerificationToken" type="hidden" value="jufc5y5sn6lfeQM31OZpwZGQozEwj4Jm5n47A8gC0LuNB1NS1ox7bRO3jAVYjyCcTeADvB1gnTyEBU6vp_ait7V-Y4Y1" />
+                                    <input id="UseCaptcha" name="UseCaptcha" type="hidden" value="False" />
+                                    <input id="ValidateCaptcha" name="ValidateCaptcha" type="hidden" value="False" />
+                                    <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="" />
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="user-name-b532ddd5-4e79-454e-9c6e-deb71dff493d">Usu&#225;rio</label>
+                                        <input autofocus="autofocus" class="form-control mv-input-radius p-5" data-val="true" data-val-required="O campo usuário deve ser informado." id="user-name-b532ddd5-4e79-454e-9c6e-deb71dff493d" name="UserName" placeholder="Usuário" type="text" value="" />
+                                        <input class="user-name-error" id="UserNameError" name="UserNameError" type="hidden" value="" />
+                                    </div>
+
+                                    <div class="form-group submit-form-group">
+                                        <label class="sr-only" for="password-b532ddd5-4e79-454e-9c6e-deb71dff493d">Senha</label>
+                                        <input class="form-control mv-input-radius p-5" data-val="true" data-val-required="O campo senha deve ser informado." id="password-b532ddd5-4e79-454e-9c6e-deb71dff493d" name="Password" placeholder="Senha" type="password" />
+                                        <input class="password-error" id="PasswordError" name="PasswordError" type="hidden" value="" />
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6">
+                                                <a class="create-account-link default-link-login" href="Login.html#CreateAccount">
+                                                    Crie uma conta
+                                                </a>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 text-right">
+                                                <a class="password-recover-link default-link-login" href="Login.html#PasswordRecover" style="display: block">
+                                                    Esqueci minha senha
+                                                </a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row pt-10 pb-5 pt-30">
+                                        <button id="btnSubmit" disabled="disabled" type="submit" class="btn button-color-login col-xs-5 col-xs-offset-4 mv-button-radius p-10 login-button button-login">
+                                            Entrar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+</form>                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="col-xs-12 links form-footer-login">
+                <div class="password-recover-container" style="display: block">
+                    <div class="default-font-text14-login send-email-text-login">
+                        J&#225; nos enviou um e-mail?
+                        <a class="password-recover-link default-link-login" href="Login.html#GetAPassword">Obtenha uma senha </a>
+                    </div>
+                    <p class="default-font-text12-login help-text-login">Se voc&#234; j&#225; nos enviou um e-mail antes, j&#225; est&#225; cadastrado no Movidesk. </p>
+                    <p class="default-font-text12-login help-text-login">Por&#233;m, &#233; provavel que voc&#234; ainda n&#227;o tenha uma senha.</p>
+                </div>
+        </footer>
+    </div>
+        <div class="hidden-xs hidden-sm col-md-8 h-100 img-content-login" style="background:url('https://s3.amazonaws.com/movidesk-files/5428E8EBDEDADDC62ABB1C012AB6457D') no-repeat; background-size: 100% 100%;"></div>
+    <div class="msg-erro-login">
+        <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+    </div>
+</div>
+
+
+
+<div id="CreateMfa">
+
+<div class="modal mfa-modal-enable-by-code" tabindex="-1" role="dialog" aria-labelledby="enableMfaModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="icon-mv-close close-modal-button close-enable-mfa" data-dismiss="modal" aria-label="Close"></button>
+                <h4 class="modal-title" id="ModalMfa">Ativar autentica&#231;&#227;o multifator por app de autentica&#231;&#227;o</h4>
+            </div>
+
+                <div class="div-alert-mfa">
+                    <div>
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                    </div>
+                    <span>Autentica&#231;&#227;o multifator foi definido como obrigat&#243;rio pelo administrador do sistema. Cadastre um app de autentica&#231;&#227;o para acessar o sistema.</span>
+                </div>
+
+            <div class="modal-body">
+                <div class="div-mfa-modal-enable">
+                    <ol>
+                        <li>
+                            <label>Voc&#234; deve ter um aplicativo de autentica&#231;&#227;o instalado no seu smartphone.</label>
+                        </li>
+                        <li>
+                            <div class="qr-code-div">
+                                <div class="qr-code-content-left">
+                                    <span>Fa&#231;a a leitura do QR code ao lado com seu aplicativo de autentica&#231;&#227;o ou voc&#234; pode digitar manualmente a chave secreta no seu aplicativo.</span>
+                                    <div>
+                                        <label />
+                                    </div>
+                                </div>
+                                <div class="qr-code-content-right">
+                                    <img alt="QR Code" />
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <label>Digite o c&#243;digo de autentica&#231;&#227;o do aplicativo</label>
+                        </li>
+                    </ol>
+
+                    <div class="fields">
+                        <div class="form-group-mfa">
+                            <label>C&#243;digo do seu aplicativo de autentica&#231;&#227;o</label>
+                            <input id="enable-code-mfa" type="text" class="input-mv-new" name="CodeMfa" />
+                            <span class="text-error-code-mfa">C&#243;digo inv&#225;lido, verifique o c&#243;digo digitado e tente novamente.</span>
+                        </div>
+                    </div>
+
+                    <div class="fields">
+                        <div class="form-group-mfa">
+                            <label>Nome do dispositivo (Opcional)</label>
+                            <input id="dispositive-mfa" type="text" class="input-mv-new" name="DispositiveMfa" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn-mv btn-mv-confirm pull-right ml-5 activate-enable-mfa">Ativar</button>
+                <button type="button" class="btn-mv btn-mv-default cancel pull-right cancel-enable-mfa" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div id="ValidateMfa">
+<div class="modal mfa-modal-access-account-mfa" tabindex="-1" role="dialog" aria-labelledby="accessAccountMfa" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="icon-mv-close close-modal-button close-access-account-mfa" data-dismiss="modal" aria-label="Close"></button>
+                <h4 class="modal-title" id="AccessAccountMfa">C&#243;digo de confirma&#231;&#227;o</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="div-access-account-mfa">
+                    <span />
+                </div>
+
+                <div class="fields">
+                    <div class="form-group-access-account-mfa">
+                        <label>C&#243;digo de confirma&#231;&#227;o</label>
+                        <input id="code-access-account-mfa" type="text" class="input-mv-new" name="AccessAccountCodeMfa" />
+                        <span class="text-error-access-account-code-mfa" style="display: none; color: #ff0000">C&#243;digo inv&#225;lido, verifique o c&#243;digo digitado e tente novamente.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn-mv btn-mv-confirm pull-right ml-5 btn-access-account-mfa">ACESSAR CONTA</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+    if (!location.href.match(/Login/)) {
+        redirectToLogin({ logoutType: LogoutType.notLogged });
+    }
+</script>
+
+
+
+                    <footer class="movidesk-container menu-footer-login default-font-text12-login">
+                        &copy; Movidesk - 23.12.18.6dce040baf |
+                        <a href="http://www.movidesk.com" target="_blank" class="default-link-login">Sobre o Sistema</a> |
+                        <a href="http://www.movidesk.com/contato" target="_blank" class="default-link-login">Contato</a>
+                    </footer>
+        </section>
+
+
+        <div id="page-footer" class="pr-20">
+            
+        </div>
+    </div>
+    
+<!-- Password recover Modal -->
+
+<div id="passwordRecoverModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="passwordRecoverModalLabel" aria-hidden="true">
+<form action="Login.html" method="post">        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+
+<button type="button" class="icon-mv-close close-modal-button" data-dismiss="modal" aria-label="Close"></button>
+
+                    <h4 class="modal-title" id="passwordRecoverModalLabel">Recupera&#231;&#227;o de senha </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-container">
+                        <p>Para recuperar a sua senha, digite o seu e-mail no campo abaixo e aguarde o recebimento da mensagem na sua caixa de entrada com instru&#231;&#245;es de como proceder. </p>
+                        <div class="form-group">
+                            <label for="Email" class="sr-only">E-mail</label>
+                            <input class="form-control field-email text-box single-line" data-val="true" data-val-email="Digite um endereço de e-mail válido" data-val-required="O campo E-mail é obrigatório." id="email" name="Email" placeholder="E-mail" type="email" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="message-container alert" style="display: none; border: 1px solid #5f5f5f; color: #5f5f5f">
+                        <p>
+                            Caso o e-mail <span></span> esteja vinculado a uma conta válida, será enviado um e-mail para recuperação da senha. Verifique a caixa de entrada para acessar o link que permitirá definir uma nova senha.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-mv-default" data-dismiss="modal">Cancelar</button>
+                    <button type="submit"
+                            data-loading-text="Enviando"
+                            class="btn btn-mv-confirm btn-send">
+                        Enviar
+                    </button>
+                </div>
+            </div>
+        </div>
+</form></div>
+
+<!-- CreateAccount Modal -->
+
+
+
+<div id="createAccountModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="createAccountModalLabel" aria-hidden="true">
+<form action="Login.html" method="post">        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+
+<button type="button" class="icon-mv-close close-modal-button" data-dismiss="modal" aria-label="Close"></button>
+
+                    <h4 class="modal-title" id="createAccountModalLabel">Crie uma conta no Movidesk </h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-container">
+                        <p>Informe os dados abaixo para a cria&#231;&#227;o da sua conta do Movidesk</p>
+
+
+                        <div class="form-group">
+                            <label for="Name">Nome</label>
+                            <input class="form-control field-name input-mv-new text-box single-line" data-val="true" data-val-required="O campo Nome é obrigatório." id="Name" name="Name" placeholder="Nome" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="form-group email-group">
+                            <label for="Email">E-mail</label>
+                            <input class="form-control field-email input-mv-new text-box single-line" data-val="true" data-val-email="Digite um endereço de e-mail válido" data-val-required="O campo E-mail é obrigatório." id="field-email-create" name="Email" placeholder="E-mail" type="email" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="Password">Senha</label>
+                            <input class="form-control input-mv-new" data-val="true" data-val-minlength="O campo senha deve possuir no mínimo 8 carácteres" data-val-minlength-min="8" data-val-required="O campo Senha é obrigatório." id="Password" name="Password" placeholder="Senha" type="password" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="PasswordConfirmation">Confirmar senha</label>
+                            <input class="form-control input-mv-new" data-val="true" data-val-equalto="As senhas inseridas não correspondem. Por favor, tente novamente" data-val-equalto-other="*.Password" data-val-minlength="O campo senha deve possuir no mínimo 8 carácteres" data-val-minlength-min="8" data-val-required="O campo Confirmar senha é obrigatório." id="PasswordConfirmation" name="PasswordConfirmation" placeholder="Confirmar senha" type="password" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="PasswordConfirmation" data-valmsg-replace="true"></span>
+                        </div>
+
+                    </div>
+                    <div class="message-container alert alert-success" style="display: none">
+                        <p>E-mail enviado com sucesso. Verifique sua caixa de entrada para acessar o link de confirma&#231;&#227;o do seu cadastro.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-mv-default" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" data-loading-text="Enviando" class="btn btn-mv-confirm btn-send">Enviar</button>
+                </div>
+            </div>
+        </div>
+</form>    <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+</div>
+
+    <script src="https://mrconsultoria.movidesk.com/Script/Resources/pt-BR.js"></script>
+    <script src="https://mrconsultoria.movidesk.com/bundles/login?v=xYnC3YPyYgbSrbDY2HHMazVAhagYJmuzRlMclLjAOSY1"></script>
+
+    
+
+
+        <script src="https://cdn.app.movidesk.com/event-tracker/main.a58b4a3f.js"></script>
+        <script type="text/javascript">
+            var movideskConfig =  {"useNewChatHub":true,"isHomolog":false,"unleash":{"SER_12_PASSWORD_IMPROVEMENTS":false,"USE_NEW_CHAT_PANEL":false,"USE_55PBX":false,"INV_791_SUCCESS_CALENDAR_BUTTON":true,"AUT_1480_DISABLE_DOUBLE_APPENDINGRULE_CHECK_ON_TICKET_REOPEN":false,"GST_764_NEW_REPORTS":true,"COR_1044_FIX_CHATS_ALREADY_ANSWERED_IN_QUEUE_WAITING_FOR_SERVICE":true,"JTK_3198_CONTAGEM_PERSON_LIST":true,"COR_1039_FIX_CHAT_INACTIVITY_STARTS_COUNTING_FROM_ZERO_EVEN_WITHOUT_THE_AGENT_RELOADING_THE_PAGE":true,"HD_1154_USE_NEW_TICKET_PANEL":false,"JTK_2486_TICKET_PANEL_VIEW_REDIRECT":false,"JTK_2516_ALLOW_PERSONTYPE_CLIENT_NEW_TICKETLIST":false,"JTK_3173_AD_LOGIN_BY_SUBDOMAIN":true,"HDII_1131_TENANT_USES_GENERIC_INTEGRATIONS":false,"GER_238_RESET_STATUS_TEAM_UPDATE":true,"SOC_904_ADJUST_FLOW_OF_AUTOMATIC_MESSAGES_SENT_BY_THE_BOT":true,"GR_38_WHATSAPP_ONLY_TRIAL_TENANT_ID":false,"AUT_1367_EXPANDED_TRIGGER_LOGS":true,"CHAT_476_DDI_VALIDATION":false,"CHAT_536_SANITIZE_CHAT_MESSAGES":true,"COR_1052_CHAT_EXPOSED_CROSS_SITE_SCRIPTING_VULNERABILITY_THROUGH_OFFLINE_MESSAGE_FORM":true,"GST_2105_TEMPORARY_DISABLE_CUSTOM_FIELDS_FORM":true,"SOC_699_DISABLE_FIELD_AFTER_24_HOURS":false,"COR_522_SET_IS_AGENT_FLAG_AT_RUNTIME":true,"GST_916_FIX_RESPONSIBILITY_FOR_CHARTS_ZOOM":false,"JTK_2582_CUSTOMFIELD_HTML_REQUIRED":true,"JTK_2914_SHOW_RETRACTED_TICKETS_HOME":true,"GST_1101_PROCESSING_CENTER_MENU_ITEM":true,"JTK_1832_FIX_CUSTOMFIELD_HOUR_ANIMATION":true,"JTK_3160_VERIFY_TICKET_IS_READ_ONLY_IN_FIELD_FINISH_STATUS":true,"GER_276_TOTAL_RECORD_TICKET_COUNT":true,"PRO_6612_FIX_CONTEXT_PROBLEM_BETWEEN_TABS":true,"PRO_6889_CHAMELEON":true,"FRT_295_HAL_9000_INTEGRATION_BUTTON":false,"PRO_6878_FIX_MODAL_DISPLAY_RULE":false,"PRO_6173_DISABLE_CUSTOMER_VIEWING_IN_THE_PINBOARD_WHEN_THE_USER_IS_A_CUSTOMER":true,"PRO_6751_RETORNAR_DADOS_DO_PERFIL_EM_JSON":true,"PRO_6777_ADICIONAR_INPUT_MODAL_MANUTENCAO_COLETIVA":false,"GST_5563_ENABLE_FROALA_CREATE_PINBOARD":false,"GST_5562_ENABLE_FROALA_CREATE_EDIT_ARTICLE":false,"JTK_3136_STRIP_CRLF_FROM_TICKET_ACTION_DESCRIPTION":true,"FRT_307_PREVENT_CLICKS_KANBAN":true,"GER_243_FILTER_BY_DATE_IN_TICKET_EXPENSES":true,"JTK_4034_CHANGE_URL_BUTTON_DASHBOARD_HAL_9000":false,"JTK_4053_BLOCK_MERGE_WITHOUT_PERMISSION":true,"PRO_6655_TO_CLEAN_TAGS_TICKET":true,"RET_4168_INVOKE_LEAVE_TICKET_GROUP":true,"PRO_6488_RETURN_TAGS_TO_TICKET":true,"PRO_419_TINYMCE_ANCHOR_APPLY_FOR_ACTION":true,"PRO_1703_DO_NOT_SHOW_ANOTHER_PANEL_WHEN_CHANGE_PANEL":true,"PRO_6515_DO_NOT_APPLY_MACRO_IF_THE_TYPE_IS_THE_SAME":true,"PRO_6823_SET_CUSTOM_FIELD_DATETIME":true,"RET_4385_SHOW_HSM_BUTTON_WHEN_ORIGIN_IS_WHATSAPP":true,"PRO_877_SET_SIGNATURE_WHEN_REPLY_AN_EMAIL":true,"PRO_1615_VALIDATE_FIELDS_ADDITIONAL_DRAFT_TICKETS":false,"PRO_6768_SHOW_BTN_MACRO":true,"PRO_6402_MFA":false,"JTK_3748_SATISFACTION_SURVEY_RESPONSE_DEADLINE":true,"JTK_3748_SATISFACTION_SURVEY_RESPONSE_DEADLINE_CHAT":false,"PRO_6549_CHECK_IF_HAVE_FINISHED_LOADING":true,"GST_1473_MOVI_SCHEDULE_EXPORT_PEOPLE":true,"EST_7334_USE_POST_IN_SCHEDULER_EXPORT_REQUESTS":true,"GST_1226_MULTI_LANGUAGE_PARAMETER":false,"GST_5225_UPDATE_COUNT_ARTICLES":false,"GST_5434_CLICK_LINK_ARTICLE_KB":true,"GST_5452_VALIDATE_FIELD_SLUG":true,"CHAT_2177_CREATE_MODAL_AND_ADJUST_RULE":false,"CHAT_2172_INCLUDE_HSM_ICON_EDIT_TICKET":true,"RET_3972_IMPLEMENT_MESSAGE_DUPLICATE_CHECKING":true,"RET_4365_MAPPING_IMAGES_MESSAGE_TEMPLATE":true,"RET_4124_DISABLE_EMPTY_MESSAGE_IMG":true,"RET_3941_ENABLE_TYPING_FIELD":true,"RET_1541_CHAT_WITH_CLIENT_INSIDE_PLATFORM_BALLOON_NOTIFICATION":true,"RET_3976_RECOVER_MESSAGES_ONRECONNECTED_SIGNALR":true,"RET_4368_ADJUST_ACTIVE_HSM_SEND_FLOW":true,"RET_4281_ACTIVE_CHAT_TRANSFER_FOR_ORIGIN_NLU":false,"RET_4327_ENABLE_NLU":false,"RET_4422_PROTOCOL_NUMBER_DUPLICATE_CHATS":true,"RET_4435_TRANSFER_CHAT_BUTTON_NOT_DISPLAYED":true,"JTK_3730_LIMIT_COUNT_TICKET_PANEL":true,"PRO_1682_MULTIPLE_PANEL_TABS_BUG":true,"PRO_3777_FIX_ERROR_WHEN_REORDERING_PANEL_WITH_MANY_VIEWS":true,"RET_3220_VIEW_BLOCKED_EMAILS_LOGVIEW":true,"PRO_6749_REMOVE_ATTR_NAME_WHEN_TO_CHANGE_ACTION":true}};
+            var movideskTracker = new MovideskTracker({
+                amplitudeToken: "59e4f8754851318ecb58e5ea4e8619d0"
+            });
+            window.movideskTracker = movideskTracker;
+        </script>
+</body>
+</html>
